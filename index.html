@@ -12,13 +12,13 @@
 
 </head>
 
-<body>
+<body class="bg">
     <div class="container">
         
-        <div class="row">
+        <div >
             <!-- To Buy List -->
             
-            <div  class="split left" ng-controller="tobuycont as tobuy">
+            <div   ng-controller="tobuycont as tobuy">
                 <h1><b><u>Shopping List Check Off</u></b></h1>
                 <h2 >To Buy list:</h2>
                 <ul >
@@ -30,7 +30,7 @@
             </div>
            
             <!-- Already Bought List -->
-            <div class="split right" ng-controller="boughtcont as bought">
+            <div  ng-controller="boughtcont as bought">
                 <br><br><br> <h2 >Already Bought list:</h2>
                 <ul >
                     <li class="bor" ng-repeat="item in bought.items">&nbsp; Bought {{item.quantity}} {{item.name}}</li>

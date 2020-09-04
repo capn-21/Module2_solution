@@ -16,15 +16,15 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
+    font-size: 20px;
     border-radius: 20%;
     margin: 4px 2px;
     cursor: pointer;
   }
   
-  div {
-     
-  font-size: 14px;
+  div {float: left;
+    background: rgb(220, 220, 220);
+  font-size: 20px;
   padding: 20px;
   text-align: left;
   font-weight: bold
@@ -33,29 +33,15 @@
   .bor{ background: rgb(220, 220, 220);
   border: 2px solid black;
   }
-  .split {
-    height: 100%;
-    width: 47%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    border: 2px solid black;
-    padding-top: 20px;
-  }
-  .left {
-    left: 0;
-    background-color: rgb(220, 220, 220);
-  }
-  .right {
-      
-    right: 0;
-    background-color:  rgb(220, 220, 220);
-  }
-  
+ 
   
   .green{
     font-weight: bold;
     background-color: rgb(120, 201, 20);
     font-size: 1.2em;
   }
+
+  .bg{ background: rgb(220, 220, 220);
+    
+    }
+   
